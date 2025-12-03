@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeCards</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="media/Logo-ZapStore.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="catalogo.html">
+            <img src="media/ZapStore.png" alt="ZapStore">
+            <h1>PokeCards</h1>
+        </a>
+        <form action="vistas/producto.html" role="search" id="form-search">
+            <div>
+                <input type="text" name="" id="form-input" placeholder="Buscar cartas Pokemon">
+                <button type="submit" id="btn-buscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+                </button>
+            </div>
+        </form>
+        <a href="vistas/carrito.html" id="carrito-icono">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17h-11v-14h-2" /><path d="M6 5l14 1l-1 7h-13" /></svg>
+            <p id="numero-carrito">0</p>
+        </a>
+    </header>
+    <main>
+        <section id="productos">
+            
+        </section>
+    </main>
+    <footer>
+        <small>
+            <p>Marcos Galizzi</p>
+            <p>&copy; Todos los derechos reservados</p>
+        </small>
+    </footer>
+    <script type="module" src="scripts/catalogo.js"></script>
+</body>
+</html>
